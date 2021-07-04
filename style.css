@@ -13,12 +13,14 @@ h2{
 .orange{
     color:orange;
 }
-section{
+.flexible-container{
     display:flex;
+    margin-bottom:;
 }
 .half-width{
     width:50%;
     padding:5%;
+  
 
 }
 .half-width img{
@@ -51,4 +53,43 @@ padding:
 .brother{
     width:110%;
     padding:0%;
+}
+.expriences{
+    
+    background-image: url(images/exp-bg.png);
+    position: left;
+    background-repeat: no-repeat;
+    background-position:left
+    ;
+    border-top:150px;
+
+
+
+
+}
+.flexible-container{
+
+}
+.full{
+    width:40%;
+  padding-left: 5%;
+    box-shadow: 5px 10px 40px gray;
+    margin-left:5% ;
+    margin-right:5%;
+    border-radius: 10px;
+    
+   
+}
+#monu{
+    border-image:linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-left:10px solid;
+}
+#tunu{
+    border-image:linear-gradient(tomato, purple);
+    border-image-slice: 1;
+    border-left:10px solid;
+}
+footer p{
+    text-align: center;
 }
